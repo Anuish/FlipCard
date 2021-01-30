@@ -15,7 +15,7 @@ body {
 }
 .card {
   margin: auto;
-  width: 400px;
+  width: 25%;
   height: 600px;
   perspective: 900px;
 }
