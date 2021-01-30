@@ -1,5 +1,5 @@
 const card = document.querySelector('.card__inner');
-card.addEventListener('mouseover', function(){
+card.addEventListener('click', function(){
 	card.classList.toggle('is-flipped');
 	
 });
