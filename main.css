@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
 }
 .card {
-  margin: auto;
+  margin: 100px auto 0;
   width: 400px;
   height: 600px;
   perspective: 900px;
@@ -27,7 +27,7 @@ body {
   cursor: pointer;
   position: relative;
 }
-.card__inner.is-flipped {
+.is-flipped {
   transform: rotateY(180deg);
 }
 .card__face {
@@ -75,7 +75,7 @@ body {
   right: 0;
   bottom: 0;
   z-index: -1;
-  border-radius: 0 0 50%;
+  border-radius: 0 0 50% 0;
   background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
 }
 .img1{
